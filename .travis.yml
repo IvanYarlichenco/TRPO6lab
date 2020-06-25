@@ -1,3 +1,4 @@
+
 language: python
 puthon: 3.8
 script:
@@ -5,13 +6,11 @@ script:
   - pytest
   - cd ..
 deploy:
-  provider: releases
-  
+  provider: releases  
   pre-release: true
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     repo: IvanYarlichenco/TRPO6lab
-    
     branch: dev
     tags: true
