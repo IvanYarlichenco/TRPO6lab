@@ -10,6 +10,6 @@ prerelease: true
 api_key: $GITHUB_TOKEN
 skip_cleanup: true
 on:
-repo: Staasik/LB6
+repo: IvanYarlichenco/TRPO6lab
 branch: dev
 tags: false
